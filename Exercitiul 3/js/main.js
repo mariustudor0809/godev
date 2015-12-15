@@ -34,7 +34,7 @@ document.addEventListener("mousemove", function(event) {
 	y.value = clientY;
 
 	xper.value = Math.round(clientX/width * 100) + "%";
-	yper.value = Math.round(clientY/width * 100) + "%";
+	yper.value = Math.round(clientY/height * 100) + "%";
 
 })
 
