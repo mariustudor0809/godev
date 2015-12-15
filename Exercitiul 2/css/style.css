@@ -1,0 +1,32 @@
+
+.rating, .star-number {
+    display: inline-block;
+}
+
+.star-number {
+    width: 100px;
+    height: 30px;
+    border: 1px solid grey;
+}
+#number {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+
+.stars {
+    font-size: 24px;
+    color: lightgrey;
+}
+.stars {
+    font-size: 24px;
+    color: lightgrey;
+}
+
+
+.active {
+    color: red;
+    transition: 0.2s ;
+}
