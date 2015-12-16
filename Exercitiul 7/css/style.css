@@ -1,0 +1,40 @@
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+
+#container {
+	background-color: lightgrey;
+	width: 260px;
+	padding: 10px;
+}
+
+#chat {
+	height: 300px;
+	margin: 0 auto 0;
+	background-color: white;
+	padding: 10px;
+	overflow-y: auto;
+}
+
+#myInput {
+	margin: 10px 10px 0 10px;
+}
+
+#avatar {
+    display: inline-block;
+    float: left;
+    width: 40px;
+}
+#header span {
+    display: inline-block;
+    line-height: 40px;
+    float: left;
+    margin: 0 10px;
+}
+
+#text {
+	margin: 2px auto 20px;
+}
