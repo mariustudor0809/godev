@@ -7,6 +7,7 @@ nume.addEventListener("input", function(){
 	var value = nume.value;
 	console.log(value);
 
+	value = value.trim();
 	var values = value.split(' ');
 
 	if (values.length === 2) {
