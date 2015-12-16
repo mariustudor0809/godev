@@ -1,0 +1,18 @@
+
+.container {
+	display: inline-block;
+	width: 200px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.row {
+	
+}
+.row span {
+	display: inline-block;
+	float: left;
+	line-height: 26px;
+	text-align: center;
+	margin: 0 10px;
+}
