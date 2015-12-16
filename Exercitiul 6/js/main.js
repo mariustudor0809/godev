@@ -5,22 +5,19 @@ var nume = document.getElementById("nume");
 nume.addEventListener("input", function(){
 
 	var value = nume.value;
-	console.log(value);
 
-	value = value.trim();
-	var values = value.split(' ');
+	var values = value.trim().split(' ');
 
 	if (values.length === 2) {
 
 		var numePrim = values[0];
 		var numeSecund = values[1];
 
-		console.log(values);
-
 		if ((numePrim.length >= 3) && (numeSecund.length >= 3)) {
-			document.getElementById("container").classList.add("valid");
-		}; 
 
+			document.getElementById("container").classList.add("valid");
+
+		}; 
 
 	} else {
 
