@@ -1,0 +1,38 @@
+
+.container {
+	display: inline-block;
+	width: 200px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form {
+	display: inline-block;
+}
+
+.status {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+.ok {
+	background-color: green;
+}
+.not-ok {
+	background-color: red;
+}
+
+
+#container .ok {
+	display: none;
+}
+
+#container.valid .ok {
+	display: inline-block;
+}
+
+#container.valid .not-ok {
+	display: none;
+}
